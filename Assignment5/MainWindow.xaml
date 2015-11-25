@@ -1,0 +1,49 @@
+﻿<Window x:Class="Assignment5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Assignment5"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid RenderTransformOrigin="0.501,0.472">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <CheckBox x:Name="checkBoxA4" Content="A4" HorizontalAlignment="Left" Margin="423,186,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="checkBoxA3" Content="A3" HorizontalAlignment="Left" Margin="284,186,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="checkBoxA2" Content="A2" HorizontalAlignment="Left" Margin="144,186,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="checkBoxA1" Content="A1" HorizontalAlignment="Left" Margin="21,186,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="checkBoxB4" Content="B4" HorizontalAlignment="Left" Margin="423,214,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="checkBoxB3" Content="B3" HorizontalAlignment="Left" Margin="284,214,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="checkBoxB2" Content="B2" HorizontalAlignment="Left" Margin="144,214,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="checkBoxB1" Content="B1" HorizontalAlignment="Left" Margin="21,214,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="checkBoxC4" Content="C4" HorizontalAlignment="Left" Margin="423,248,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="checkBoxC3" Content="C3" HorizontalAlignment="Left" Margin="284,248,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="checkBoxC2" Content="C2" HorizontalAlignment="Left" Margin="144,248,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="checkBoxC1" Content="C1" HorizontalAlignment="Left" Margin="21,248,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="checkBoxD4" Content="D4" HorizontalAlignment="Left" Margin="423,279,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="checkBoxD3" Content="D3" HorizontalAlignment="Left" Margin="284,282,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="checkBoxD2" Content="D2" HorizontalAlignment="Left" Margin="144,279,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="checkBoxD1" Content="D1" HorizontalAlignment="Left" Margin="21,279,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label" Content="Seating Chart" HorizontalAlignment="Left" Margin="188,143,0,0" VerticalAlignment="Top" Width="155"/>
+        <TextBox x:Name="textBoxName" HorizontalAlignment="Left" Height="23" Margin="92,55,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label1" Content="Enter Name:" HorizontalAlignment="Left" Margin="10,52,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1_Copy" Content="Reserve a Seat" HorizontalAlignment="Left" Margin="21,24,0,0" VerticalAlignment="Top" Width="183"/>
+        <TextBox x:Name="textBoxRemoveSeat" HorizontalAlignment="Left" Height="23" Margin="387,55,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label1_Copy1" Content="Enter Name Or Seat Number" HorizontalAlignment="Left" Margin="218,54,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Width="192">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.406"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label x:Name="label1_Copy2" Content="Remove a Reservation" HorizontalAlignment="Left" Margin="324,24,0,0" VerticalAlignment="Top" Width="183"/>
+        <Button x:Name="buttonAddReservation" Content="Reserve!" HorizontalAlignment="Left" Margin="59,153,0,0" VerticalAlignment="Top" Width="88" Click="buttonAddReservation_Click"/>
+        <Button x:Name="buttonSearchReservation" Content="Search Name/Reservation " HorizontalAlignment="Left" Margin="335,89,0,0" VerticalAlignment="Top" Width="159" Click="buttonSearchReservation_Click" Height="24"/>
+        <Button x:Name="buttonSaveName" Content="Save Name" HorizontalAlignment="Left" Margin="92,83,0,0" VerticalAlignment="Top" Width="105" Click="buttonSaveName_Click"/>
+    </Grid>
+</Window>
