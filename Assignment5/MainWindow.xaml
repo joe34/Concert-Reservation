@@ -13,7 +13,7 @@
         <CheckBox x:Name="checkBoxA4" Content="A4" HorizontalAlignment="Left" Margin="423,186,0,0" VerticalAlignment="Top"/>
         <CheckBox x:Name="checkBoxA3" Content="A3" HorizontalAlignment="Left" Margin="284,186,0,0" VerticalAlignment="Top"/>
         <CheckBox x:Name="checkBoxA2" Content="A2" HorizontalAlignment="Left" Margin="144,186,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="checkBoxA1" Content="A1" HorizontalAlignment="Left" Margin="21,186,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="checkBoxA1" Content="A1" HorizontalAlignment="Left" Margin="21,186,0,0" VerticalAlignment="Top" ToolTip=""/>
         <CheckBox x:Name="checkBoxB4" Content="B4" HorizontalAlignment="Left" Margin="423,214,0,0" VerticalAlignment="Top"/>
         <CheckBox x:Name="checkBoxB3" Content="B3" HorizontalAlignment="Left" Margin="284,214,0,0" VerticalAlignment="Top"/>
         <CheckBox x:Name="checkBoxB2" Content="B2" HorizontalAlignment="Left" Margin="144,214,0,0" VerticalAlignment="Top"/>
